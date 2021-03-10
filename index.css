@@ -1,0 +1,1553 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&display=swap');
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    padding: 0;    
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+}
+
+.parent {
+    position: relative;
+    top: -360px;
+    left: 315px;
+    background-color: rgb(255, 255, 255);
+    height: 1400px;
+    width: 100vh;
+    margin: 0px;
+    overflow-x: hidden;
+    transform: rotate(-90deg);
+}
+
+.videos {
+    position: fixed;
+    padding: 0 60px 0 25px;
+    left: 580px;
+    top: 380px;
+    font-weight: 500;
+    transform: rotate(90deg);
+    z-index: 99;
+    font-size: 26px;
+    display: none;
+}
+
+video {
+    position: fixed;
+    width: 70vw;
+    height: 85vh;
+}
+
+.child {
+    position: relative;
+    width: 100vh;
+    height: 100%;
+    margin: 0px;
+    background-color: rgb(18, 233, 150);
+    transform: rotate(0deg)
+}
+
+
+
+/* bagian slide 1 ===========================================================*/
+
+#ch1 {
+    background-color: rgb(255, 255, 255);
+    z-index: 4;
+}
+
+.ch1b {
+    overflow: hidden;
+}
+
+.child-wrap {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    margin: 0;
+    transform: rotate(0deg);
+}
+
+.cw1 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform: rotate(0deg);
+}
+
+.nameX {
+    position: absolute;
+    width: 320px;
+    z-index: 99;
+    left: 490px;
+    font-size: 19px;
+    color: rgb(127, 9, 238);
+    top: 250px;
+    transform: rotate(90deg);
+}
+
+.nameX::before {
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 300px;
+    content: '';
+    border-radius: 0 20px 20px 0;
+    display: block;
+    background-color: rgb(127, 9, 238);
+    width: 170px;
+    height: 3px;
+}
+
+.cws1 {
+    position: absolute;
+    left: 502px;
+    font-size: 55px;
+    top: -40px;
+    transform: rotate(90deg);
+    color: rgb(255, 255, 255);
+    width: 170px;
+    height: auto;
+    text-align: center;
+}
+
+.logos {
+    position: absolute;
+    transform: scale(1) rotate(180deg);
+    top: 1110px;
+    left: -113px;
+    opacity: 1;
+}
+
+.logos2 {
+    position: relative;
+    transform: scale(1) rotate(189deg);
+    top: -110px;
+    left: -40px;
+    opacity: 1;
+    background-color: rgb(255, 255, 255);
+}
+
+.o {
+    position: absolute;
+    -webkit-text-stroke: 3px rgb(243, 243, 243);
+}
+
+.cws1 .porto {
+    position: absolute;
+    font-size: 230px;
+    left: -140px;
+    top: -150px;
+    line-height: 1em;
+    transform: rotate(0deg);
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 3px rgb(127, 9, 238);
+    padding: 0px 30px;
+    transition: 0.4s;
+    letter-spacing: 0.1em;
+    z-index: 4;
+}
+
+.folio {
+    position: absolute;
+    font-size: 200px;
+    left: 0px;
+    top: 50px;
+    line-height: 1em;
+    transform: rotate(0deg);
+    -webkit-text-fill-color: rgb(127, 9, 238);
+    -webkit-text-stroke: 3px  rgb(127, 9, 238);
+    padding: 0px 30px;
+    letter-spacing: 0.1em;
+    transition: 0.4s;
+}
+
+.tahun {
+    position: absolute;
+    font-size: 200px;
+    left: 140px;
+    top: 180px;
+    line-height: 1em;
+    transform: rotate(0deg);
+    -webkit-text-fill-color:  rgb(127, 9, 238);
+    -webkit-text-stroke: 3px rgb(127, 9, 238);
+    padding: 0px 30px;
+    transition: 0.4s;
+}
+
+.alp:hover {
+    position: relative;
+    transition: 0.4s;
+    cursor: pointer;
+    top: -20px;
+    -webkit-text-stroke: 3px rgb(13, 238, 200);
+    -webkit-text-fill-color:  rgb(31, 28, 49);
+}
+
+.front {
+    position: absolute;
+    margin-top: 0px;
+    margin-left: -60px;
+}
+
+.end {
+    color: rgb(13, 238, 200);
+}
+
+
+/* bagian slide 2 ===========================================================*/
+
+#ch2 {
+    background-color:  rgb(127, 9, 238);
+}
+
+.skils {
+    position: absolute;
+    margin-top: 10px;
+    flex-direction: row;
+    display: flex;
+    z-index: 2;
+}
+
+.skils img {
+    height: 55px;
+    margin: 10px;
+    filter: grayscale(90%);
+}
+
+.skils img:hover {
+    transition: 0.3s;
+    filter: grayscale(0%);
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.ch2b {
+    height: 900px;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 83%);
+    overflow: hidden;
+}
+
+.look {
+    display: flex;
+    margin-left: 470px;
+    margin-top: -230px;
+    font-size: 48px;
+    cursor: pointer;
+    position: absolute;
+    transition: 0.4s;
+}
+
+.look2 {
+    display: flex;
+    margin-left: 470px;
+    margin-top: -160px;
+    font-size: 48px;
+    cursor: pointer;
+    position: absolute;
+    display: none;
+    transition: 0.4s;
+}
+
+.look:hover .la-arrow-left {
+    transition: 0.4s;
+    margin-left: 40px;
+    cursor: pointer;
+}
+
+.look2:hover .la-arrow-left {
+    transition: 0.4s;
+    margin-left: 40px;
+    cursor: pointer;
+}
+
+.look .la-arrow-left {
+    transition: 0.2s;
+    margin-top: 10px;
+    margin-left: 30px;
+    transform: rotateY(180deg);
+}
+
+.look2 .la-arrow-left {
+    transition: 0.2s;
+    margin-top: 10px;
+    margin-left: 30px;
+    transform: rotateY(0deg);
+}
+
+.logos22 {
+    position: absolute;
+    transform: scale(1) rotate(0deg);
+    top: 1110px;
+    left: -10px;
+    opacity: 1;
+}
+
+#ch2 h1 {
+    position: absolute;
+    top: -180px;
+    left: -140px;
+    background-color: transparent;
+    color:  rgb(255, 255, 255);
+    transform: rotate(90deg);
+    font-size: 320px;
+}
+
+#ch2 .intro {
+    position: relative;
+    font-size: 170px;
+    left: 190px;
+    top: 25px;
+    line-height: 1em;
+    transform: rotate(90deg);
+    color: transparent;
+    -webkit-text-stroke: 3px rgb(255, 255, 255);
+    padding: 0px 30px;
+    transition: 0.4s;
+    border-top: 2px solid white;
+}
+
+.ch2b .intro {
+    margin-top: 60px;
+    position: relative;
+    font-size: 170px;
+    left: 190px;
+    top: 25px;
+    line-height: 1em;
+    transform: rotate(90deg);
+    color: transparent;
+    -webkit-text-stroke: 3px rgb(255, 255, 255);
+    padding: 0px 30px;
+    transition: 0.4s;
+    border-top: 2px solid white;
+}
+
+.ch2b .intro::before {
+    position: absolute;
+    width: 0px;
+    height: 180px;
+    content: attr(data-text); 
+    top: 0px;
+    overflow: hidden;
+    padding-right: 10px;
+    border-right: 4px solid white;
+    color: #ffffff;
+    -webkit-text-stroke: 3px rgb(255, 255, 255);
+    left: 30px;
+    animation: 6s introX2 infinite linear;
+}
+
+.ch2 .intro::before {
+    position: absolute;
+    width: 0px;
+    height: 180px;
+    content: attr(data-text); 
+    top: 0px;
+    overflow: hidden;
+    padding-right: 10px;
+    border-right: 4px solid white;
+    color: #ffffff;
+    -webkit-text-stroke: 3px rgb(255, 255, 255);
+    left: 30px;
+    animation: 6s introX infinite linear;
+}
+
+@keyframes introX {
+    0%, 10%,  100% {
+        width: 0px;
+    }
+    70%, 90% {
+        width: 520px;
+    }
+}
+
+@keyframes introX2 {
+    0%, 10%,  100% {
+        width: 0px;
+    }
+    70%, 90% {
+        width: 620px;
+    }
+}
+
+.text-intro span {
+    color: rgb(255, 255, 255);
+}
+
+#ch2 .text-intro {
+    position: absolute;
+    color: white;
+    width: 630px;
+    transform: rotate(90deg);
+    font-size: 23px;
+    margin-top: 690px;
+    margin-left: 90px;
+}
+
+/* untuk slide 3 ==================================================== */
+
+#ch3 {
+    background-color: rgb(245, 245, 245);
+    overflow: hidden;
+}
+
+#ch3 .cws1 {
+    position: absolute;
+    left: -5px;
+    top: -10px;
+    transform: rotate(0deg);
+}
+
+#ch3 .cws1 div {
+    position: relative;
+    width: 100vh;
+    height: 460px;
+    transition: 0.3s;
+}
+
+#ch3 .cws1 div p {
+    position: absolute;
+    transition: 0.3s;
+    width: 435px;
+    left: -330px;
+    text-align: left;
+    top: 155px;
+    color: rgba(0, 0, 0, 0.897);
+    font-size: 19px;
+    transform: rotate(90deg);
+}
+
+#ch3 .cws1 h1 {
+    position: absolute;
+    margin-top: 55px;
+    margin-left: 540px;
+    font-weight: normal;
+    color: rgb(26, 26, 26);
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 3px rgb(27, 27, 27);
+    transform: rotate(90deg);
+}
+
+#ch3 .spec {
+    position: absolute;
+    width: 960px;
+    height: 550px;
+    padding-bottom: 50px;
+    top: 540px;
+    left: -140px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgb(233, 233, 233);
+    border-radius: 10px;
+    transform: rotate(90deg);
+    overflow: hidden;
+}
+
+@keyframes sld1 {
+     from {
+        left: -800px;
+     }
+     to {
+        left: -140px;
+     }
+}
+
+#ch3 .top {
+    width: 100%;
+    height: 60px;
+    background-color: rgb(127, 9, 238);
+    overflow: hidden;
+}
+
+#ch3 .s-line {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding-left: 20px;
+}
+
+#ch3 .s-line span {
+    margin-left: 8px;
+}
+
+#ch3 .s-line p {
+    position: relative;
+    margin-left: auto;
+    color: white;
+    margin-right: 55px;
+}
+
+#ch3 .intro {
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 478px;
+    color: rgb(51, 51, 51);
+    background-color: white;
+    width: 35%;
+    padding: 25px 0;
+    overflow: hidden;
+    border-radius: 0 0 10px 0;
+    font-size: 100px;
+    transform: rotate(90deg);
+    z-index: 2;
+}
+
+.bottom {
+    width: 100%;
+    padding: 20px;
+    height: 455px;
+    background-color: rgb(255, 255, 255);
+    overflow: scroll;
+}
+
+.bottom h3 {
+    font-size: 30px;
+}
+
+.bottom p {
+    width: 85%;
+}
+
+#ch3 .bottom button {
+    background-color: rgb(44, 44, 44);
+    border: none;
+    outline: none;
+    margin: 10px 80px 10px auto;
+    border-radius: 4px;
+    font-size: 20px;
+    float: right;
+    padding: 8px 15px;
+    text-align: center;
+    z-index: 4;
+    font-weight: 500;
+    cursor: pointer;
+    color: white;
+}
+
+
+
+/* untuk slide 4 ===================================================== */
+
+#ch4 {
+    background-color:rgb(245, 245, 245);
+    height: 525px;
+}
+
+#ch4 .cws1 {
+    position: absolute;
+    left: -5px;
+    top: -10px;
+    transform: rotate(0deg);
+}
+
+#ch4 .cws1 div {
+    position: relative;
+    width: 100vh;
+    height: 460px;
+    transition: 0.3s;
+}
+
+#ch4 .cws1 div p {
+    position: absolute;
+    transition: 0.3s;
+    width: 435px;
+    left: -330px;
+    text-align: left;
+    top: 155px;
+    color: rgba(0, 0, 0, 0.897);
+    font-size: 19px;
+    transform: rotate(90deg);
+}
+
+#ch4 .cws1 h1 {
+    position: absolute;
+    margin-top: 55px;
+    margin-left: 540px;
+    font-weight: normal;
+    color: rgb(26, 26, 26);
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 3px rgb(27, 27, 27);
+    font-size: 140px;
+    transform: rotate(90deg);
+}
+
+#ch4 .spec {
+    position: absolute;
+    width: 960px;
+    height: 550px;
+    padding-bottom: 50px;
+    top: 540px;
+    left: -140px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgb(233, 233, 233);
+    border-radius: 10px;
+    transform: rotate(90deg);
+    overflow: hidden;
+}
+
+#ch4 .top {
+    width: 100%;
+    height: 60px;
+    background-color: rgb(255, 190, 11);
+    overflow: hidden;
+}
+
+#ch4 .s-line {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding-left: 20px;
+}
+
+#ch4 .intro {
+    position: absolute;
+    margin-top: 80px;
+    margin-left: 478px;
+    color: rgb(127, 9, 238);
+    background-color: white;
+    width: 35%;
+    padding: 25px 0;
+    font-size: 100px;
+    transform: rotate(90deg);
+}
+
+#ch4 .s-line span {
+    margin-left: 8px;
+}
+
+#ch4 .s-line p {
+    position: relative;
+    margin-left: auto;
+    color: white;
+    margin-right: 55px;
+}
+
+#s1 {
+    width: 18px;
+    height: 18px;
+    background-color: rgb(233, 19, 19);
+    border-radius: 30px;
+ }
+ 
+ #s2 {
+     width: 18px;
+     height: 18px;
+     background-color: rgb(255, 230, 0);
+     border-radius: 30px;
+ }
+ 
+ #s3 {
+     width: 18px;
+     height: 18px;
+     background-color: rgb(28, 212, 59);
+     border-radius: 30px;
+ }
+
+.bottom {
+    width: 100%;
+    padding: 20px;
+    height: 455px;
+    background-color: rgb(255, 255, 255);
+    overflow: scroll;
+}
+
+.bottom h3 {
+    font-size: 30px;
+}
+
+.bottom p {
+    width: 85%;
+}
+
+#ch4 .bottom button {
+    background-color: rgb(44, 44, 44);
+    border: none;
+    outline: none;
+    margin: 10px;
+    border-radius: 4px;
+    font-size: 20px;
+    padding: 8px 10px;
+    text-align: center;
+    font-weight: 500;
+    color: white;
+}
+
+.bottom button:hover {
+    transition: 0.4s;
+    transform: scale(0.96);
+    cursor: pointer;
+}
+
+.menu2 {
+    position: absolute;
+    transform: rotate(90deg);
+    direction: rtl;
+    overflow: scroll;
+    margin-left: 56px;
+    margin-top: -100px;
+    font-size: 30px;
+}
+
+.menu2 h1 {
+    color: rgb(43, 43, 43);
+    transition: 0.3s;
+    margin-left: 50px;
+}
+
+.menu2 h1:hover {
+    cursor: pointer;
+    border-bottom: 4px solid rgb(126, 126, 126);
+    color: rgb(126, 126, 126);
+    transition: 0.3s;
+}
+
+.menu2 h2 {
+    background-color: rgb(127, 9, 238);
+    width: 30px;
+    padding: 30px 40px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 20px;
+    height: 40px;
+    transition: 0.4s;
+}
+
+.menuChild {
+    display: flex;
+}
+
+
+/* untuk slide 5 ===================================================== */
+
+#ch5 {
+    background-color: rgb(197, 197, 197);
+    height: 470px;
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 70%);
+}
+
+.cv {
+    position: absolute;
+    margin-top: 140px;
+    margin-left: 20px;
+    color: rgb(48, 48, 48);
+    width: auto;
+    font-size: 140px;
+    transform: scale(0.8) rotate(90deg);
+    background-color: rgb(255, 255, 255);
+    padding: 10px 13px;
+    display: flex;
+    border-radius: 4px;
+    font-size: 35px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.cv:hover {
+    transform: scale(0.77) rotate(90deg);
+    background-color: rgb(114, 6, 255);
+    color: white;
+}
+
+.cv span {
+    float: left;
+}
+
+.la-download {
+    float: right;
+}
+
+.email {
+    position: absolute;
+    background-color: rgb(114, 6, 255);
+    color: white;
+    padding: 10px 15px;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 500;
+    align-items: center;
+    margin-top: -55px;
+    transition: 0.3s;
+}
+
+#tahun h2, #tahun2 h2 {
+    transition: 0.2s;
+}
+
+#tahun h2:hover, #tahun2 h2:hover {
+    cursor: pointer;
+    transform: scale(0.96);
+    transition: 0.2s;
+}
+
+.la-pause {
+    position: absolute;
+    margin-left: 70px;
+}
+
+.la-at {
+    position: absolute;
+    margin-top: 115px;
+    margin-left: 210px;
+    color: rgb(53, 53, 53);
+    font-size: 140px;
+    transform: scale(0.8) rotate(90deg);
+    background-color: #fff;
+    border-radius: 90px;
+    padding: 3px;
+    font-size: 105px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+}
+
+.la-pause {
+    position: absolute;
+    margin-top: 120px;
+    color: rgb(53, 53, 53);
+    font-size: 140px;
+    transform: scale(0.8) rotate(90deg);
+    background-color: #fff;
+    border-radius: 90px;
+    padding: 3px;
+    font-size: 105px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+}
+
+.la-at:hover {
+    cursor: pointer;
+    background-color:rgb(127, 9, 238);
+    transition: 0.3s;
+    transform: scale(0.7) rotate(90deg);
+    color: rgb(255, 255, 255);
+}
+
+#ch5 .cws1 h2 {
+    position: absolute;
+    margin-top: -60px;
+    margin-left: 180px;
+    color: rgb(26, 26, 26);
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke: 3px white;
+    font-size: 70px;
+}
+
+.images {
+    position: absolute;
+    margin-top: 500px;
+    width: 700px;
+    height: 900px;
+    background-color: white;
+}
+
+
+/* untuk slide 6 ===================================================== */
+
+#ch6 {
+
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+    width: 800px;
+    margin-top: -150px;
+    margin-left: -60px;
+    transform: rotate(15deg);
+    height: 300px;
+}
+
+#ch6 .cws1 {
+
+    position: absolute;
+    margin-top: 700px;
+    margin-left: -380px;
+    display: block;
+    width: 440px;
+    z-index: 4;
+    height: 100vh;
+}
+
+.logos2c {
+    position: absolute;
+    transform: scale(0.7) rotate(0deg);
+    top: 60px;
+    left: 83px;
+    opacity: 1;
+}
+
+.logos2c2 {
+    position: absolute;
+    transform: scale(0.8) rotate(0deg);
+    top: 100px;
+    left: 380px;
+    opacity: 1;
+}
+
+.logos2c3 {
+    position: absolute;
+    transform: scale(0.8) rotate(0deg);
+    top: 60px;
+    left: -140px;
+    opacity: 1;
+}
+
+
+#ch6 .cws1 img {
+    transform: scale(0.6);
+}
+
+.img1 {
+    margin-top: -30px;
+}
+
+.img2 {
+    margin-top: -150px;
+}
+
+
+/* untuk slide 7 ===================================================== */
+
+#ch7 {
+    background-color: rgb(255, 255, 255);
+    color: rgb(56, 56, 56);
+    height: 1300px;
+}
+
+#ch7 .cws1 {
+    position: absolute;
+    margin-left: -250px;
+    margin-top: -50px;
+    display: block;
+}
+
+#ch7 .cws1 .cws1a {
+    position: relative;
+    display: flex;
+    color: rgb(56, 56, 56);
+    margin: 10px 20px 55px 20px;
+    text-align: left;
+    width: 840px;
+}
+
+#ch7 .cws1 .cws1a i {
+    font-size: 90px;
+}
+
+#ch7 a {
+    color: rgb(56, 56, 56);
+    transition: 0.3s;
+    margin-left: 40px;
+}
+
+#ch7 a:hover {
+    cursor: pointer;
+    margin-left: 30px;
+    transition: 0.3s;
+}
+
+.bg-logos {
+    position: absolute;
+    margin-top: -280px;
+    transform: rotate(60deg);
+}
+
+
+/* untuk slide 8 ===================================================== */
+
+#ch8 {
+    background-color:  rgb(127, 9, 238);
+    transform: rotate(180deg);
+    margin-top: -1453px;
+    transition: 1s;
+}
+
+.logos1b {
+    position: absolute;
+    transform: scale(1) rotate(180deg);
+    top: -200px;
+    left: -113px;
+    opacity: 1;
+}
+
+.ch8Shows {
+    background-color:  rgb(127, 9, 238);
+    transition: 0.4s;
+    margin-left: 500px;
+}
+
+.bg-logos2 {
+    position: absolute;
+    margin-top: 1130px;
+    margin-left: 290px;
+    transform: rotate(60deg);
+}
+
+.bg-logos2b {
+    position: absolute;
+    margin-top: 330px;
+    margin-left: 130px;
+    transform: rotate(60deg);
+}
+
+.bg-logos2c {
+    position: absolute;
+    margin-top: 730px;
+    margin-left: 50px;
+    transform: rotate(60deg);
+}
+
+.bg-logos2d {
+    position: absolute;
+    margin-top: 480px;
+    margin-left: 430px;
+    transform: rotate(60deg) scale(0.8);
+}
+
+
+/* untuk slide 10 =================================================== END */
+
+#ch10 {
+    background-color: rgb(197, 197, 197);
+    height: 400px;
+    overflow: hidden;
+    clip-path: polygon(0 0, 100% 13%, 100% 100%, 0 100%);
+}
+
+#ch10 .la-arrow-left {
+    color: rgb(53, 53, 53);
+    background-color: #fff;
+    border-radius: 90px;
+    padding: 3px;
+    font-size: 82px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+}
+
+#ch10 .la-arrow-left:hover {
+    cursor: pointer;
+    background-color:rgb(127, 9, 238);
+    transition: 0.3s;
+    transform: scale(0.85);
+    color: rgb(255, 255, 255);
+}
+
+#ch10 a {
+    text-decoration: none;
+}
+
+#ch10 .cws1 h2 {
+    margin-left: 80px;
+    font-size: 70px;
+}
+
+#ch10 .menu2 {
+    position: absolute;
+    margin-left: 3px;
+    transform: rotate(0deg);
+    direction: rtl;
+    font-size: 23px;
+}
+
+#ch10 .menu2 h1 {
+    color: rgb(39, 38, 38);
+    transition: 0.3s;
+    z-index: 2;
+    height: 60px;
+    margin-left: 0px;
+    padding: 20px 30px 20px 70px;
+    background-color: #fff;
+    margin-top: 120px;
+}
+
+#ch10 .menu2 h1:hover {
+    cursor: pointer;
+    border-bottom: none;
+    color: rgb(126, 126, 126);
+    transition: 0.3s;
+}
+
+#ch10 .menu2 h2 {
+    background-color: transparent;
+    width: 20px;
+    padding: 30px 50px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 15px;
+    height: 50px;
+    text-align: center;
+    transition: 0.4s;
+}
+
+#ch10 .menuChild {
+    display: flex;
+}
+
+#ch10 .backToStart {
+    position: absolute;
+    color: black;
+    z-index: 9;
+    padding: 0 50px;
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+    transition: 0.3s;
+    margin-left: 60px;
+    margin-top: 100px;
+    height: auto;
+}
+
+#ch10 .backToStart:hover {
+    cursor: pointer;
+    transition: 0.3s;
+    color: rgb(78, 78, 78);
+}
+
+
+
+
+/* untuk responsive mobile =========================================== */
+@media (max-width: 760px) {
+    
+/* default */
+
+body {
+    padding: 0;    
+    margin: 0;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.parent {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid black;
+    height: 1400px;
+    width: 700px;
+    overflow-x: hidden;
+    transform: rotate(0deg);
+    overflow-y: scroll;
+}
+
+.child {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    margin: 0px;
+    background-color: rgb(255, 255, 255);
+    transform: rotate(0deg)
+}
+
+.child-wrap {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    margin: 0;
+    transform: rotate(-90deg);
+}
+
+
+/* untuk slide bagian 1 */
+
+.videos {
+    position: fixed;
+    padding: 0 60px 0 25px;
+    left: 580px;
+    top: 380px;
+    font-weight: 500;
+    transform: rotate(0deg);
+    z-index: 99;
+    font-size: 26px;
+    display: none;
+}
+
+#ch5 {
+    display: none;
+}
+
+#ch1 .cws1 {
+    position: absolute;
+    left: 302px;
+    font-size: 55px;
+    top: 170px;
+    transform: rotate(90deg);
+    color: rgb(255, 255, 255);
+    width: 170px;
+    height: auto;
+    text-align: center;
+}
+
+#ch1 .logos2 {
+    display: none;
+}
+
+.cws1 .porto {
+    position: absolute;
+    font-size: 80px;
+    left: 5px;
+    top: -90px;
+    line-height: 1em;
+    transform: rotate(0deg);
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 3px rgb(127, 9, 238);
+    padding: 0px 30px;
+    transition: 0.4s;
+    letter-spacing: 0.1em;
+    z-index: 4;
+}
+
+.folio {
+    position: absolute;
+    font-size: 80px;
+    left: 5px;
+    top: 50px;
+    line-height: 1em;
+    transform: rotate(0deg);
+    -webkit-text-fill-color: rgb(127, 9, 238);
+    -webkit-text-stroke: 3px  rgb(127, 9, 238);
+    padding: 0px 30px;
+    letter-spacing: 0.1em;
+    transition: 0.4s;
+}
+
+.tahun {
+    position: absolute;
+    font-size: 80px;
+    left: 5px;
+    top: 180px;
+    line-height: 1em;
+    transform: rotate(0deg);
+    -webkit-text-fill-color:  rgb(127, 9, 238);
+    -webkit-text-stroke: 3px rgb(127, 9, 238);
+    padding: 0px 30px;
+    transition: 0.4s;
+}
+
+.alp:hover {
+    position: relative;
+    transition: 0.4s;
+    cursor: pointer;
+    top: -20px;
+    -webkit-text-stroke: 3px rgb(13, 238, 200);
+    -webkit-text-fill-color:  rgb(31, 28, 49);
+}
+
+
+/*  untuk slide bagian 2 */
+
+#ch2 .chi {
+    position: relative;
+    font-size: 100px;
+    left: 85px;
+    top: 200px;
+    line-height: 1em;
+    transform: rotate(0deg);
+    color: transparent;
+    -webkit-text-stroke: 3px rgb(255, 255, 255);
+    padding: 0px 30px;
+    transition: 0.4s;
+    border-top: none;
+}
+
+.skils {
+    display: none;
+}
+
+.ch2b .intro::before {
+    position: absolute;
+    width: 0px;
+    height: 180px;
+    content: attr(data-text); 
+    top: 0px;
+    overflow: hidden;
+    padding-right: 10px;
+    border-right: 4px solid white;
+    color: #ffffff;
+    -webkit-text-stroke: 3px rgb(255, 255, 255);
+    left: 30px;
+    animation: 6s introX2 infinite linear;
+}
+
+.ch2 .intro::before {
+    position: absolute;
+    width: 0px;
+    height: 100px;
+    content: attr(data-text); 
+    top: 0px;
+    overflow: hidden;
+    padding-right: 10px;
+    border-right: 4px solid white;
+    color: #ffffff;
+    -webkit-text-stroke: 3px rgb(255, 255, 255);
+    left: 30px;
+    animation: 6s introX infinite linear;
+}
+
+#ch2 .text-intro {
+    position: absolute;
+    color: white;
+    width: 75%;
+    transform: rotate(90deg);
+    font-size: 19px;
+    padding: 0 20px;
+    margin-top: 75px;
+    margin-left: -40px;
+    text-align: left;
+}
+
+@keyframes introX {
+    0%, 10%,  100% {
+        width: 0px;
+    }
+    70%, 90% {
+        width: 245px;
+    }
+}
+
+/* untuk slide bagian slide 3 */
+
+#ch3 {
+    background-color: rgb(245, 245, 245);
+    overflow: hidden;
+}
+
+#ch3 .bottom button {
+    background-color: rgb(44, 44, 44);
+    border: none;
+    outline: none;
+    margin: 10px 80px 10px auto;
+    border-radius: 4px;
+    font-size: 20px;
+    float: left;
+    padding: 8px 15px;
+    text-align: center;
+    z-index: 7;
+    font-weight: 500;
+    cursor: pointer;
+    color: white;
+}
+
+.ds {
+    display: none;
+}
+
+.bottom p {
+    width: 85%;
+    margin-top: 70px;
+}
+
+#ch3 .spec {
+    position: absolute;
+    width: 90%;
+    height: 100%;
+    padding-bottom: 50px;
+    top: -25px;
+    left: -50px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgb(233, 233, 233);
+    border-radius: 10px;
+    transform: rotate(90deg);
+    overflow: hidden;
+}
+
+.na {
+    display: none;
+}
+
+#ch3 .top {
+    width: 100%;
+    height: 60px;
+    background-color: rgb(127, 9, 238);
+    overflow: hidden;
+}
+
+#ch3 .s-line {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+#ch3 .s-line span {
+    margin-left: 8px;
+}
+
+#ch3 .intro {
+    display: none;
+}
+
+.ft {
+    display: none;
+}
+
+/* untuk slide bagian 4 */
+
+.menu2 {
+    position: absolute;
+    transform: rotate(90deg);
+    direction: rtl;
+    overflow: scroll;
+    margin-left: 26px;
+    margin-top: 40px;
+    font-size: 17px;
+}
+
+.menu2 h1 {
+    color: rgb(43, 43, 43);
+    transition: 0.3s;
+}
+
+.menu2 h1:hover {
+    cursor: pointer;
+    border-bottom: 4px solid rgb(126, 126, 126);
+    color: rgb(126, 126, 126);
+    transition: 0.3s;
+}
+
+.menu2 h2 {
+    background-color: rgb(127, 9, 238);
+    width: 30px;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 30px;
+    height: 50px;
+    transition: 0.4s;
+}
+
+.menuChild {
+    display: flex;
+}
+
+#fitur {
+    display: none;
+}
+
+
+/* untuk slide bagian ch2b */
+
+#ch2 .intro {
+    margin-top: 60px;
+    position: relative;
+    font-size: 80px;
+    left: 120px;
+    top: 215px;
+    line-height: 1em;
+    transform: rotate(0deg);
+    color: transparent;
+    -webkit-text-stroke: 3px rgb(255, 255, 255);
+    padding: 0px 30px;
+    transition: 0.4s;
+    border-top: 2px solid white;
+}
+
+.ch2b .intro::before {
+    position: absolute;
+    width: 0px;
+    height: 88px;
+    content: attr(data-text); 
+    top: 0px;
+    overflow: hidden;
+    padding-right: 10px;
+    border-right: 4px solid transparent;
+    color: #ffffff;
+    -webkit-text-stroke: transparent;
+    left: 30px;
+    animation: 6s introX2 infinite linear;
+}
+
+@keyframes introX2 {
+    0%, 10%,  100% {
+        width: 0px;
+    }
+    70%, 90% {
+        width: 0px;
+    }
+}
+
+
+.look {
+    display: flex;
+    margin-left: 170px;
+    margin-top: 160px;
+    font-size: 48px;
+    cursor: pointer;
+    position: absolute;
+    transition: 0.4s;
+}
+
+.look2 {
+    display: flex;
+    margin-left: 100px;
+    margin-top: 250px;
+    font-size: 48px;
+    cursor: pointer;
+    position: absolute;
+    display: none;
+    transition: 0.4s;
+} 
+
+.logos1b {
+   display: none;
+}
+
+.bg-logos2 {
+    position: absolute;
+    margin-top: 130px;
+    margin-left: 290px;
+    transform: rotate(60deg);
+}
+
+.bg-logos2b {
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 10px;
+    transform: rotate(60deg);
+}
+
+.bg-logos2c {
+    display: none;
+}
+
+.bg-logos2d {
+    display: none;
+}
+
+/* untuk bagian slide 10 */
+
+#ch10 .la-arrow-left {
+    margin-top: 140px;
+    color: rgb(53, 53, 53);
+    background-color: #fff;
+    border-radius: 90px;
+    padding: 3px;
+    font-size: 82px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+}
+
+}
